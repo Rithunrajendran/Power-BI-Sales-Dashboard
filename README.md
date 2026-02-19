@@ -58,7 +58,7 @@ The dashboard was developed to answer the following questions:
 ## 📸 Dashboard Preview
 
 ### 🔹 Overview Page
-![Overview]([Screenshots/overview.png](https://github.com/Rithunrajendran/Power-BI-Sales-Dashboard/blob/main/Screenshots/Overview.png))
+![Overview](Screenshots/Overview.png)
 
 ### 🔹 Top & Bottom 5 Analysis
 ![TopBottom](Screenshots/top_bottom_analysis.png)
