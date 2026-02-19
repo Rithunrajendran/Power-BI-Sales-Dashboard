@@ -70,7 +70,7 @@ The dashboard was developed to answer the following questions:
 ![Table](Screenshots/Table-Visuals.png)
 
 ### 🔹 Edit Interactions
-![EditInteractions](Screenshots/edit_interactions.png)
+![EditInteractions](Screenshots/Edit-Interactions.png)
 
 
 ## 🧮 Sample DAX Measures
