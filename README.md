@@ -58,7 +58,7 @@ The dashboard was developed to answer the following questions:
 ## 📸 Dashboard Preview
 
 ### 🔹 Overview Page
-![Overview](C:\Users\rithu\OneDrive\Documents\Screenshots)
+![Overview](Screenshots/overview.png)
 
 ### 🔹 Top & Bottom 5 Analysis
 ![TopBottom](Screenshots/top_bottom_analysis.png)
@@ -69,7 +69,6 @@ The dashboard was developed to answer the following questions:
 ### 🔹 Order-Level Table View
 ![Table](Screenshots/table_view.png)
 
----
 
 ## 🧮 Sample DAX Measures
 
