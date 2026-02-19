@@ -61,7 +61,7 @@ The dashboard was developed to answer the following questions:
 ![Overview](Screenshots/Overview.png)
 
 ### 🔹 Top & Bottom 5 Analysis
-![TopBottom](Screenshots/top_bottom_analysis.png)
+![TopBottom](Screenshots/Top_Bottom-5 _Analysis.png)
 
 ### 🔹 Sales / Profit / Quantity Comparison
 ![Comparison](Screenshots/Comparison-Sales-Profit-Quantity.png)
