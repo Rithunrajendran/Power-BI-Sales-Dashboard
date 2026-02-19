@@ -67,7 +67,7 @@ The dashboard was developed to answer the following questions:
 ![Comparison](Screenshots/Comparison-Sales-Profit-Quantity.png)
 
 ### 🔹 Order-Level Table View
-![Table](Screenshots/table_view.png)
+![Table](Screenshots/Table-Visuals.png)
 
 
 ## 🧮 Sample DAX Measures
