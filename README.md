@@ -58,7 +58,7 @@ The dashboard was developed to answer the following questions:
 ## 📸 Dashboard Preview
 
 ### 🔹 Overview Page
-![Overview](Screenshots/overview.png)
+![Overview](C:\Users\rithu\OneDrive\Documents\Screenshots)
 
 ### 🔹 Top & Bottom 5 Analysis
 ![TopBottom](Screenshots/top_bottom_analysis.png)
