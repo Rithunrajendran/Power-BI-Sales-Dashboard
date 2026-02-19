@@ -1,20 +1,88 @@
-# Power-BI-Sales-Dashboard
-Interactive Power BI dashboard analyzing sales, profit, discount impact, and product performance with DAX measures and dynamic period comparison.
+# 📊 ElectroHub Sales Performance Dashboard (Power BI)
 
-📋 Business Requirements
+## 🔹 Project Overview
+This project presents an interactive Power BI dashboard built to analyze sales performance for ElectroHub.  
+The dashboard provides insights into product performance, profitability, discount impact, time-based trends, and order-level details using DAX and dynamic filtering.
 
-The dashboard was built to answer the following business questions:
+---
 
-1.What are the Top and Bottom 5 products by Sales, Profit, and Quantity Sold?
+## 🎯 Business Objective
+Design a data-driven dashboard to support business decision-making by answering key analytical questions related to sales, profit, promotions, and customer transactions.
 
-2.How do sales trends vary over time (daily, monthly, quarterly, annually)?
+---
 
-3.What is the relationship between Sales and Profit?
+## 📋 Business Requirements
 
-4.How does performance compare between any two user-selected periods?
+The dashboard was developed to answer the following questions:
 
-5.What is the average discount offered in each promotion category?
+1. What are the Top and Bottom 5 products by Sales, Profit, and Quantity Sold?  
+2. How do sales trends vary over time (daily, monthly, quarterly, annually)?  
+3. What is the relationship between Sales and Profit?  
+4. How does performance compare between any two user-selected periods?  
+5. What is the average discount offered in each promotion category?  
+6. What is the total number of orders?  
+7. Can users view order-level details filtered by Product, Date, Customer, and Promotion Category?
 
-6.What is the total number of orders?
+---
 
-7.Can users view order-level details filtered by Product, Date, Customer, and Promotion Category?
+## 🧰 Tools & Technologies Used
+
+- **Power BI Desktop**
+- **DAX (Data Analysis Expressions)**
+- **Data Modeling (Star Schema)**
+- **Time Intelligence Functions**
+- Interactive slicers and dynamic comparison filters
+
+---
+
+## 📊 Key KPIs
+
+- Total Sales  
+- Total Profit  
+- Total Quantity Sold  
+- Total Orders  
+- Profit Margin %
+
+---
+
+## 📈 Key Insights
+
+- 📌 Apple iPhone 14 is the top-performing product in terms of Sales and Profit.
+- 📌 Weekend Flash Sales offer the highest average discount.
+- 📌 Sales and Profit show a strong positive correlation.
+- 📌 Period comparison feature enables clear identification of growth trends.
+- 📌 Discount-heavy promotions do not always result in higher profitability.
+
+---
+
+## 📸 Dashboard Preview
+
+### 🔹 Overview Page
+![Overview](Screenshots/overview.png)
+
+### 🔹 Top & Bottom 5 Analysis
+![TopBottom](Screenshots/top_bottom_analysis.png)
+
+### 🔹 Sales / Profit / Quantity Comparison
+![Comparison](Screenshots/comparison_page.png)
+
+### 🔹 Order-Level Table View
+![Table](Screenshots/table_view.png)
+
+---
+
+## 🧮 Sample DAX Measures
+
+```DAX
+Total Sales = SUM(Sales[Net Sales])
+
+Total Profit = SUM(Sales[Profit])
+
+Profit Margin % =
+DIVIDE([Total Profit], [Total Sales])
+
+Sales Growth % =
+DIVIDE(
+    [Current Period Sales] - [Previous Period Sales],
+    [Previous Period Sales]
+)
