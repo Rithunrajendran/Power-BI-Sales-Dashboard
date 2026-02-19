@@ -69,6 +69,9 @@ The dashboard was developed to answer the following questions:
 ### 🔹 Order-Level Table View
 ![Table](Screenshots/Table-Visuals.png)
 
+### 🔹 Edit Interactions
+![EditInteractions](Screenshots/edit_interactions.png)
+
 
 ## 🧮 Sample DAX Measures
 
