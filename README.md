@@ -41,7 +41,7 @@ The dashboard was developed to answer the following questions:
 - Total Profit  
 - Total Quantity Sold  
 - Total Orders  
-- Profit Margin %
+
 
 ---
 
