@@ -87,4 +87,4 @@ Total Profit = CALCULATE(SUM('Fact Table'[Profit]),ALL('Date Table 1' ),
 USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)]))
 
 Sum Dim = SUM('Fact Table'[Net Sales   ])
-)
+
