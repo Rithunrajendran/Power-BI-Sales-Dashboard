@@ -76,15 +76,15 @@ The dashboard was developed to answer the following questions:
 ## 🧮 Sample DAX Measures
 
 ```DAX
-Total Sales = SUM(Sales[Net Sales])
 
-Total Profit = SUM(Sales[Profit])
+Quantity Sold = CALCULATE(SUM('Fact Table'[Units Sold]),
+ALL('Date Table 1')
+,USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)]))
 
-Profit Margin % =
-DIVIDE([Total Profit], [Total Sales])
+Sum of Net Sales = CALCULATE(SUM('Fact Table'[Net Sales   ]),ALL('Date Table 1'),USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)]))
 
-Sales Growth % =
-DIVIDE(
-    [Current Period Sales] - [Previous Period Sales],
-    [Previous Period Sales]
+Total Profit = CALCULATE(SUM('Fact Table'[Profit]),ALL('Date Table 1' ),
+USERELATIONSHIP('Date Table 2'[Date],'Fact Table'[Date (dd/mm/yyyy)]))
+
+Sum Dim = SUM('Fact Table'[Net Sales   ])
 )
